@@ -5,6 +5,7 @@ data class Post (
     val fromId:Int,
     val createdBy:Int,
     val date:Int,
+    val attachment:Array<Attachments> = emptyArray(),
     val text:String?,
     val replyOwnerId:Int?,
     val replyPostId:Int?,
